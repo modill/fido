@@ -6,6 +6,12 @@ header {
 
 nav {
 	font-family: 'Alegreya Sans SC', sans-serif;
+	padding: .5em;
+	margin: .5em;
+}
+
+#navbar {
+	opacity: .5;
 }
 
 body {
@@ -14,7 +20,28 @@ body {
 	font-family: 'Carme', sans-serif;
 }
 
+#logo {
+	float: left;
+	padding: .5em;
+	margin: 0 1em 1em 0;
+}
+
+#intro {
+	float: right;
+	text-align: center;
+	padding: .5em;
+	margin: 2em 3em 1em 0;
+}
+
+div {
+	clear: both;
+}
+
 footer {
 	background: #FFF
+	color: #39B54A;
 	font: 'Carme', sans-serif;
+	text-align: center;
+	padding: 1.5em;
+	margin: 1.5em;
 }
